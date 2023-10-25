@@ -16,9 +16,10 @@ public class HelloController {
 	@ApiOperation(value = "HelloController::helloWorld", notes = "Saluda")
 	@GetMapping(value = "hello", produces = "application/json; charset=utf-8")
 	public Persona helloWorld() {
-	    Persona p = new Persona();
-	    p.setId(78);
-	    p.setNombre("Nombre");
+	    Persona p = new Persona(78,"Pedro",29);
+	    /*p.setId(78);
+	    p.setNombre("Pedro Cano");
+	    p.setEdad(30);*/
 		return p;
 	}
 	

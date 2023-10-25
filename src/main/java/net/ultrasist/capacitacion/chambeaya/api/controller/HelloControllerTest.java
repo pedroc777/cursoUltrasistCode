@@ -1,5 +1,11 @@
 package net.ultrasist.capacitacion.chambeaya.api.controller;
 
-public class HelloControllerTest {
+/*import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.test
 
-}
+public class HelloControllerTest {
+    @Test
+    void testFactorial() {
+        
+    }
+}*/
