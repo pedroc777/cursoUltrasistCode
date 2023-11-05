@@ -1,3 +1,4 @@
+//master
 package net.ultrasist.capacitacion.chambeaya.api.config;
 
 import org.springframework.context.annotation.Bean;
