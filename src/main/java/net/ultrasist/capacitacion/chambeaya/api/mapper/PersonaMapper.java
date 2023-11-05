@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import net.ultrasist.capacitacion.chambeaya.api.model.Persona;
 
-//finge que va a la base de datos, pero en realidad usa una bolsa de tipo ArrayList
+//finge que va a la base de datos, pero en realidad usa una bolsa de tipo ArrayList esto es master
 @Repository
 public class PersonaMapper {
     private List<Persona> bolsa = new ArrayList<>();
