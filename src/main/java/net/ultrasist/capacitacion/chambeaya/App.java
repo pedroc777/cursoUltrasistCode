@@ -8,10 +8,6 @@ public class App {
 
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
-		
-		/* 
-		 * este es el "Funcionando" de la terminal
-		 */
 		System.out.println("Funcionando");
 	}
 
